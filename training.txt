@@ -1,0 +1,55 @@
+Componenets:
+Resuable
+scalable
+maintainable
+documentable
+Testable
+
+
+angluar- typescript
+
+
+React.ja--  Library
+very specific --- manage view
+
+
+
+Single page App
+
+
+Form:
+
+Template Driven forms
+Reactive Forms
+
+HTTP client package
+
+
+Promises
+Observables--rxjs
+
+@angular/cli
+
+ng command
+
+npm i -g @angular/cli
+
+ng --version
+
+
+The way angular project bootstarp:
+
+angular.json config information for the angular project
+---> main point of the app------->root module(app.module.ts)----->root component(app.component.ts)
+
+
+
+Componenet have 4 files:
+
+.ts
+.html
+.css
+.spec.ts
+
+
+index.html(src folder)->

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+    <html lang="en">
+            <head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+                    <title>Form</title>
+                </head> 
+    <body>
+        <header>Form</header>        
+         <form>
+             <br>
+             <fieldset>
+                 <legend>Personal Details</legend>
+                 <div>
+                     <lable>Name</lable>
+                     <input type="text"
+                     autofocus
+                     required
+                     pattern="[A-Za-z]{4,65}">
+                 </div>
+                 <div>
+                 <lable>DOB</lable>
+                 <input type="date" min="2019-05-06" step="2">
+                </div>
+                <br>
+                <div>
+                    <lable>Age</lable>
+                    <input type="number" min="10" max="100" step="10">
+                   </div>
+             </fieldset>
+             <fieldset>
+                <legend>Personal Details</legend>
+                <div>
+                        <lable>WebSite</lable>
+                        <input type="url">
+                       </div>
+
+                       <div>
+                           
+                            <input type="color">
+                           </div>
+
+                </fieldset>
+             <br>
+             <button type="Submit">Submit</button>
+         </form>
+    </body>
+    
+    </html>

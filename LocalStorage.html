@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>HTML5 LocalStorage</title>
+    </head>
+    <body>
+        <h1>Local Storage Counter</h1>
+        <button onclick="increamentCounter()">Increase Counter</button>
+        <div>Get Counter value from LS</div>
+
+<script>
+
+    var currentCounter = 0
+var increamentCounter=function(){
+
+    currentCounter++
+    localStorage.setItem("Counter",currentCounter)
+}
+
+var initializeValues = function(){
+
+if(localStorage){
+    if(localStorage.counter == null){
+        localStorage.setItem("Counter",0)
+        currentCounter= localStorage.getItem("Counter")
+    }else{
+        currentCounter= localStorage.getItem("Counter")
+    }
+}
+
+}
+
+</script>
+
+    </body>
+    </html>

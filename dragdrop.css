@@ -1,0 +1,14 @@
+#left{
+    background-color: aliceblue;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    }
+
+    #right{
+        background-color: beige;
+        width: 400px;
+        height: 400px;
+        float: right;
+          
+        }
